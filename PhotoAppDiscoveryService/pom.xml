@@ -44,6 +44,12 @@
 				<artifactId>jersey-apache-client4</artifactId>
 				<version>1.19.4</version>
 			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-resolver-dns-native-macos</artifactId>
+				<version>4.1.73.Final</version>
+				<classifier>osx-aarch_64</classifier>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
